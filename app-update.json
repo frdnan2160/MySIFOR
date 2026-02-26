@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "latestVersionCode": 2,
+  "latestVersionName": "1.0.1",
+  "apkUrl": "https://raw.githubusercontent.com/frdnan2160/MySIFOR/main/app-debug.apk",
+  "releaseNotes": "Perbaikan stabilitas, optimasi performa, dan peningkatan pengalaman pengguna.",
+  "forceAfterDays": 7,
+  "forceUpdate": false
+}
