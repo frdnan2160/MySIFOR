@@ -56,7 +56,7 @@ Sebelum install dan login, pastikan:
 
 ## 4. Cara Install MySIFOR (Android)
 
-1. Download APK versi terbaru dari link resmi yang dibagikan sekolah.
+1. Download APK versi terbaru dari link resmi yang dibagikan administrator.
 2. Buka file APK.
 3. Jika muncul peringatan keamanan, aktifkan izin instalasi dari sumber tersebut (`Install unknown apps`).
 4. Lanjutkan proses instalasi sampai selesai.
@@ -240,7 +240,7 @@ Tidak. Menu mengikuti role akun (`Siswa`, `Sekretaris`, `Bendahara`) dan hak aks
 Hanya `Administrator`.
 
 ### Jika data tidak sesuai, harus lapor ke siapa?
-Lapor ke `Administrator` sekolah dengan detail masalah.
+Lapor ke `Administrator` dengan detail masalah.
 
 ### Apakah update aplikasi wajib?
 Tergantung kebijakan versi. Jika update ditandai wajib, pengguna harus update agar bisa lanjut memakai aplikasi dengan normal.
@@ -250,6 +250,6 @@ Tergantung kebijakan versi. Jika update ditandai wajib, pengguna harus update ag
 Jika kamu mengalami masalah:
 1. Catat masalahnya (fitur mana, jam berapa, gejalanya apa).
 2. Sertakan screenshot jika ada.
-3. Kirim laporan ke `Administrator` sekolah.
+3. Kirim laporan ke `Administrator`.
 
 Dengan informasi yang lengkap, proses perbaikan biasanya jauh lebih cepat.
