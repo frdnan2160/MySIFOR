@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "latestVersionCode": 4,
+  "latestVersionCode": 5,
   "latestVersionName": "1.0.3",
-  "apkUrl": "https://raw.githubusercontent.com/frdnan2160/MySIFOR/main/app-debug.apk?v=4",
-  "releaseNotes": "Perbaikan stabilitas, optimasi performa, dan peningkatan pengalaman pengguna.",
+  "apkUrl": "https://raw.githubusercontent.com/frdnan2160/MySIFOR/main/app-debug.apk?v=5",
+  "releaseNotes": "opimalisasi dashboard & fixing bug",
   "forceAfterDays": 7,
   "forceUpdate": false
 }
