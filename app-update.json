@@ -3,7 +3,7 @@
   "latestVersionCode": 5,
   "latestVersionName": "1.0.3",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/v1.0.3-5/app-debug.apk",
-  "releaseNotes": "opimalisasi dashboard & fixing bug",
+  "releaseNotes": "optimalisasi aplikasi dan perbaikan bug",
   "forceAfterDays": 7,
   "forceUpdate": false
 }
