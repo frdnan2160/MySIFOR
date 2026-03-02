@@ -4,6 +4,6 @@
   "latestVersionName": "1.1.0",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/v1.1.0/app-debug.apk",
   "releaseNotes": "UI/UX overhaul total + perbaikan jadwal sebelum jam pertama + peningkatan reliabilitas notifikasi adzan + optimasi loading",
-  "forceAfterDays": 3,
+  "forceAfterDays": 13,
   "forceUpdate": false
 }
