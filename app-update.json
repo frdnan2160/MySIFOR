@@ -1,18 +1,18 @@
 {
   "enabled": true,
-  "latestVersionCode": 11,
-  "latestVersionName": "1.1.2",
+  "latestVersionCode": 9,
+  "latestVersionName": "1.1.0",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "releaseNotes": "Hotfix Main saja.",
+  "releaseNotes": "Rilis signed stabil untuk channel Main.",
   "forceAfterDays": 3,
   "forceUpdate": false,
   "channels": {
     "main": {
       "enabled": true,
-      "latestVersionCode": 11,
-      "latestVersionName": "1.1.2",
+      "latestVersionCode": 9,
+      "latestVersionName": "1.1.0",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "releaseNotes": "Hotfix Main saja.",
+      "releaseNotes": "Rilis signed stabil untuk channel Main.",
       "forceAfterDays": 3,
       "forceUpdate": false
     },
