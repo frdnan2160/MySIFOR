@@ -1,9 +1,29 @@
 {
   "enabled": true,
-  "latestVersionCode": 6,
-  "latestVersionName": "1.1.0",
-  "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/v1.1.0/app-debug.apk",
-  "releaseNotes": "UI/UX overhaul total + perbaikan jadwal sebelum jam pertama + peningkatan reliabilitas notifikasi adzan + optimasi loading",
-  "forceAfterDays": 13,
-  "forceUpdate": false
+  "latestVersionCode": 11,
+  "latestVersionName": "1.1.2",
+  "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+  "releaseNotes": "Hotfix Main saja.",
+  "forceAfterDays": 3,
+  "forceUpdate": false,
+  "channels": {
+    "main": {
+      "enabled": true,
+      "latestVersionCode": 11,
+      "latestVersionName": "1.1.2",
+      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+      "releaseNotes": "Hotfix Main saja.",
+      "forceAfterDays": 3,
+      "forceUpdate": false
+    },
+    "lite": {
+      "enabled": true,
+      "latestVersionCode": 9,
+      "latestVersionName": "1.1.0 Lite (Optimized)",
+      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
+      "releaseNotes": "Optimasi loading login dan dashboard siswa...",
+      "forceAfterDays": 30,
+      "forceUpdate": false
+    }
+  }
 }
