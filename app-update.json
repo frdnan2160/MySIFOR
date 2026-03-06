@@ -18,10 +18,10 @@
     },
     "lite": {
       "enabled": true,
-      "latestVersionCode": 9,
-      "latestVersionName": "1.1.0 Lite (Optimized)",
+      "latestVersionCode": 10,
+      "latestVersionName": "1.1.1-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "releaseNotes": "Optimasi loading login dan dashboard siswa...",
+      "releaseNotes": "Rilis update Lite 1.1.1 untuk sinkronisasi channel update dan distribusi APK terbaru.",
       "forceAfterDays": 30,
       "forceUpdate": false
     }
