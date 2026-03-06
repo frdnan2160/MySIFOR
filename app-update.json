@@ -18,10 +18,10 @@
     },
     "lite": {
       "enabled": true,
-      "latestVersionCode": 10,
-      "latestVersionName": "1.1.1-lite",
+      "latestVersionCode": 12,
+      "latestVersionName": "1.1.3-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "releaseNotes": "Rilis update Lite 1.1.1 untuk sinkronisasi channel update dan distribusi APK terbaru.",
+      "releaseNotes": "Perbaikan stabilitas Lite untuk tombol chat lama, chat baru, dan chat admin, termasuk hardening sesi Firebase dan parser data chat lama.",
       "forceAfterDays": 30,
       "forceUpdate": false
     }
