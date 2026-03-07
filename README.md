@@ -58,7 +58,14 @@ Sebelum install/login, pastikan:
 2. Isi `Username`.
 3. Isi `Password`.
 4. Tekan `Masuk`.
-
+### Ringkas Perbedaan
+| Aspek | Main | Lite |
+|---|---|---|
+| Fokus | UI lebih kaya, komponen lebih lengkap | UI ringan, render cepat, hemat resource |
+| Target perangkat | Spek menengah ke atas | Spek rendah sampai menengah |
+| Komponen visual | Material card/statistik lengkap | Panel flat ringan dengan komponen AppCompat |
+| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti, tampilan lebih sederhana |
+| Channel update | `main` | `lite` |
 Jika login gagal:
 1. Cek kembali username/password (case-sensitive).
 2. Pastikan internet aktif.
