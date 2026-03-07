@@ -10,6 +10,43 @@ Catatan:
 - Pengelolaan akun, role, dan konfigurasi sistem dilakukan oleh `Administrator`.
 - Jika ada data/akses yang tidak sesuai, laporkan ke `Administrator`.
 
+## Status Rilis (7 Maret 2026)
+
+- `Main`: `versionName 1.1.1` (`versionCode 10`)
+- `Lite`: `versionName 1.1.6-lite` (`versionCode 15`)
+
+## Edisi Aplikasi (Main vs Lite)
+
+### Ringkas Perbedaan
+| Aspek | Main | Lite |
+|---|---|---|
+| Fokus | UI lebih kaya, komponen lebih lengkap | UI ringan, render cepat, hemat resource |
+| Target perangkat | Spek menengah ke atas | Spek rendah sampai menengah |
+| Komponen visual | Material card/statistik lengkap | Panel flat ringan dengan komponen AppCompat |
+| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti, tampilan lebih sederhana |
+| Channel update | `main` | `lite` |
+
+### Fitur Utama Main
+- Dashboard per role dengan komponen statistik lengkap dan visual lebih detail.
+- Aksi Cepat Al-Qur'an di bagian paling atas area aksi cepat.
+- Detail surah bisa di-minimize/tampilkan ulang sesuai kebutuhan baca.
+- Tafsir per ayat tersedia dengan toggle, default tersembunyi untuk jaga performa.
+- Cocok untuk pengguna yang ingin tampilan penuh dan informasi lebih kaya per layar.
+
+### Fitur Utama Lite
+- Dashboard tetap lengkap secara fungsi, tapi UI disederhanakan agar scrolling lebih ringan.
+- Aksi Cepat Al-Qur'an tetap di posisi paling atas.
+- Mode Al-Qur'an v1 berfokus pada ayat + arti agar akses cepat.
+- Komponen tombol/panel dioptimalkan untuk perangkat RAM lebih kecil.
+- Cocok untuk penggunaan harian yang mengutamakan respons cepat.
+
+### Fitur yang Sama di Main dan Lite
+- Login dan akses berbasis role (`Siswa`, `Sekretaris`, `Bendahara`, role lain sesuai akun).
+- Chat (inbox, direct message, grup kelas, chat baru).
+- Dashboard akademik: pelajaran, tugas, ujian, event, jadwal shalat, dan ringkasan pembayaran.
+- Notifikasi penting dan reminder adzan.
+- Mekanisme update APK dari channel masing-masing.
+
 
 ## 1. Tujuan Aplikasi
 
@@ -58,14 +95,7 @@ Sebelum install/login, pastikan:
 2. Isi `Username`.
 3. Isi `Password`.
 4. Tekan `Masuk`.
-### Ringkas Perbedaan
-| Aspek | Main | Lite |
-|---|---|---|
-| Fokus | UI lebih kaya, komponen lebih lengkap | UI ringan, render cepat, hemat resource |
-| Target perangkat | Spek menengah ke atas | Spek rendah sampai menengah |
-| Komponen visual | Material card/statistik lengkap | Panel flat ringan dengan komponen AppCompat |
-| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti, tampilan lebih sederhana |
-| Channel update | `main` | `lite` |
+
 Jika login gagal:
 1. Cek kembali username/password (case-sensitive).
 2. Pastikan internet aktif.
@@ -87,6 +117,12 @@ Menampilkan ringkasan administrasi, statistik tugas/event/ujian, dan akses cepat
 
 ### 6.3 Dashboard Bendahara
 Menampilkan ringkasan infaq/kas/event, data tunggakan, dan akses cepat transaksi/laporan.
+
+### 6.4 Aksi Cepat Al-Qur'an
+- Tombol Al-Qur'an ada di bagian atas area aksi cepat dashboard.
+- Halaman detail surah mendukung tombol minimize/tampilkan detail surat.
+- Tafsir singkat per ayat bisa di-toggle dan default-nya tersembunyi (tap `Lihat tafsir` saat diperlukan).
+- Pada channel `Lite` (v1), fokus utama tampilan adalah ayat + arti dengan mode lebih ringan.
 
 ## 7. Fitur Chat
 
@@ -133,6 +169,11 @@ Saat ada versi baru, aplikasi dapat menampilkan prompt update.
 Mekanisme yang didukung:
 - Download APK di background.
 - Instalasi tetap perlu konfirmasi pengguna.
+
+Channel update:
+- `Main` mengambil update dari jalur rilis Main.
+- `Lite` mengambil update dari jalur rilis Lite.
+- Versi aktif per 7 Maret 2026: Main `1.1.1 (10)` dan Lite `1.1.6-lite (15)`.
 
 
 ## 11. Troubleshooting
