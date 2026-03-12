@@ -10,9 +10,9 @@ Catatan:
 - Pengelolaan akun, role, dan konfigurasi sistem dilakukan oleh `Administrator`.
 - Jika ada data/akses yang tidak sesuai, laporkan ke `Administrator`.
 
-## Status Rilis (7 Maret 2026)
+## Status Rilis (12 Maret 2026)
 
-- `Main`: `versionName 1.1.1` (`versionCode 10`)
+- `Main`: `versionName 1.1.2` (`versionCode 11`)
 - `Lite`: `versionName 1.1.6-lite` (`versionCode 15`)
 
 ## Edisi Aplikasi (Main vs Lite)
@@ -173,7 +173,7 @@ Mekanisme yang didukung:
 Channel update:
 - `Main` mengambil update dari jalur rilis Main.
 - `Lite` mengambil update dari jalur rilis Lite.
-- Versi aktif per 7 Maret 2026: Main `1.1.1 (10)` dan Lite `1.1.6-lite (15)`.
+- Versi aktif per 12 Maret 2026: Main `1.1.2 (11)` dan Lite `1.1.6-lite (15)`.
 
 
 ## 11. Troubleshooting
