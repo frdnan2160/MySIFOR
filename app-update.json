@@ -1,18 +1,18 @@
 {
     "enabled":  true,
-    "latestVersionCode":  16,
-    "latestVersionName":  "1.1.7-lite-test",
-    "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-    "releaseNotes":  "Lite v1 update: upgrade UI dashboard menyeluruh, tombol Al-Qur'an dipindah ke Aksi Cepat paling atas, dan fokus tampilan ayat + arti dengan mode ringan.",
-    "forceAfterDays":  30,
+    "latestVersionCode":  11,
+    "latestVersionName":  "1.1.2",
+    "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+    "releaseNotes":  "Main 1.1.2: upgrade UI, dan optiimalisasi.",
+    "forceAfterDays":  3,
     "forceUpdate":  false,
     "channels":  {
                      "main":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  10,
-                                  "latestVersionName":  "1.1.1",
+                                  "latestVersionCode":  11,
+                                  "latestVersionName":  "1.1.2",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "releaseNotes":  "Main update: upgrade UI besar-besaran, aksi cepat Al-Qur'an di atas dashboard, detail surah bisa diminimize, dan tafsir per ayat default tersembunyi demi performa.",
+                                  "releaseNotes":  "Main 1.1.2: upgrade UI, dan optiimalisasi.",
                                   "forceAfterDays":  3,
                                   "forceUpdate":  false
                               },
