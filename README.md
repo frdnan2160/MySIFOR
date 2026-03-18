@@ -7,14 +7,14 @@ Panduan ini ditujukan untuk pengguna:
 - `Bendahara` (special role)
 
 Catatan:
-- Akun, hak akses, dan konfigurasi sistem dikelola oleh Admin MySIFOR.
-- Jika ada data/akses yang tidak sesuai, laporkan ke Admin.
+- Akun, hak akses, dan konfigurasi sistem dikelola oleh Pengelola MySIFOR.
+- Jika ada data/akses yang tidak sesuai, laporkan ke Pengelola.
 - `Sekretaris` dan `Bendahara` adalah *special role* yang bisa ditempelkan ke akun (misalnya akun siswa yang merangkap sekretaris/bendahara kelas).
 
-## Status Rilis (12 Maret 2026)
+## Status Rilis (18 Maret 2026)
 
-- `Main`: `versionName 1.1.2` (`versionCode 11`)
-- `Lite`: `versionName 1.1.6-lite` (`versionCode 15`)
+- `Main`: `versionName 1.1.5` (`versionCode 14`)
+- `Lite`: `versionName 1.1.9-lite` (`versionCode 18`)
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -77,7 +77,7 @@ MySIFOR membantu pengguna untuk:
 ## 3. Persiapan Sebelum Pakai
 
 Sebelum install/login, pastikan:
-1. Kamu sudah menerima `username` dan `password` dari Admin.
+1. Kamu sudah menerima `username` dan `password` dari Pengelola.
 2. Internet stabil.
 3. Memori penyimpanan cukup.
 4. Izin notifikasi MySIFOR diaktifkan.
@@ -101,7 +101,7 @@ Jika login gagal:
 1. Cek kembali username/password (case-sensitive).
 2. Pastikan internet aktif.
 3. Tutup-buka aplikasi.
-4. Jika tetap gagal, hubungi Admin.
+4. Jika tetap gagal, hubungi Pengelola.
 
 Catatan password default:
 - Jika muncul notifikasi bahwa akun masih memakai password default, segera ganti password lewat web MySIFOR (menu `Ganti Password`) untuk keamanan.
@@ -134,7 +134,7 @@ Menampilkan ringkasan infaq/kas/event, data tunggakan, dan akses cepat transaksi
 ### 7.1 Daftar Chat
 - Lihat inbox dan arsip chat.
 - Cari chat.
-- Buka chat admin atau chat direct.
+- Buka chat pengelola atau chat direct.
 
 ### 7.2 Ruang Chat
 - Kirim dan baca pesan.
@@ -146,7 +146,7 @@ Menampilkan ringkasan infaq/kas/event, data tunggakan, dan akses cepat transaksi
 - Pilih kontak untuk membuka direct message.
 
 Catatan grup kelas:
-- Chat grup kelas biasanya dibatasi untuk kelas yang sama, kecuali akun tertentu (mis. admin) sesuai kebijakan.
+- Chat grup kelas biasanya dibatasi untuk kelas yang sama, kecuali akun tertentu sesuai kebijakan.
 
 ## 8. Notifikasi Adzan
 
@@ -185,7 +185,7 @@ Mekanisme yang didukung:
 Channel update:
 - `Main` mengambil update dari jalur rilis Main.
 - `Lite` mengambil update dari jalur rilis Lite.
-- Versi aktif per 12 Maret 2026: Main `1.1.2 (11)` dan Lite `1.1.6-lite (15)`.
+- Versi aktif per 18 Maret 2026: Main `1.1.5 (14)` dan Lite `1.1.9-lite (18)`.
 
 
 ## 11. Troubleshooting
@@ -216,10 +216,10 @@ Channel update:
 ## 12. FAQ
 
 ### Apakah semua role punya menu yang sama?
-Tidak. Menu mengikuti role akun dan hak akses yang diatur Admin MySIFOR.
+Tidak. Menu mengikuti role akun dan hak akses yang diatur Pengelola MySIFOR.
 
 ### Siapa yang bisa ubah role akun?
-Hanya Admin MySIFOR.
+Hanya Pengelola MySIFOR.
 
 ### Apakah update selalu wajib?
 Tergantung kebijakan rilis. Jika ditandai wajib, user harus update untuk lanjut.
@@ -229,6 +229,6 @@ Tergantung kebijakan rilis. Jika ditandai wajib, user harus update untuk lanjut.
 Jika ada masalah:
 1. Catat waktu kejadian dan fitur yang bermasalah.
 2. Sertakan screenshot.
-3. Kirim laporan ke Admin.
+3. Kirim laporan ke Pengelola.
 
 Laporan yang detail mempercepat proses perbaikan.
