@@ -1,29 +1,32 @@
 {
-    "enabled":  true,
-    "latestVersionCode":  11,
-    "latestVersionName":  "1.1.2",
-    "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "releaseNotes":  "Main 1.1.2: upgrade UI, dan optiimalisasi.",
-    "forceAfterDays":  3,
-    "forceUpdate":  false,
-    "channels":  {
-                     "main":  {
-                                  "enabled":  true,
-                                  "latestVersionCode":  11,
-                                  "latestVersionName":  "1.1.2",
-                                  "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "releaseNotes":  "Main 1.1.2: upgrade UI, dan optiimalisasi.",
-                                  "forceAfterDays":  3,
-                                  "forceUpdate":  false
-                              },
-                     "lite":  {
-                                  "enabled":  true,
-                                  "latestVersionCode":  16,
-                                  "latestVersionName":  "1.1.7-lite-test",
-                                  "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-                                  "releaseNotes":  "Lite v1 update: upgrade UI dashboard menyeluruh, tombol Al-Qur'an dipindah ke Aksi Cepat paling atas, dan fokus tampilan ayat + arti dengan mode ringan.",
-                                  "forceAfterDays":  30,
-                                  "forceUpdate":  false
-                              }
-                 }
+  "enabled": true,
+  "latestVersionCode": 14,
+  "latestVersionName": "1.1.5",
+  "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+  "apkSha256": "b2b0a40a9f2211f1c3911736afc7be554c79365fab608b9fa24afe1bd53dec06",
+  "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+  "forceAfterDays": 1,
+  "forceUpdate": true,
+  "channels": {
+    "main": {
+      "enabled": true,
+      "latestVersionCode": 14,
+      "latestVersionName": "1.1.5",
+      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+      "apkSha256": "b2b0a40a9f2211f1c3911736afc7be554c79365fab608b9fa24afe1bd53dec06",
+      "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+      "forceAfterDays": 1,
+      "forceUpdate": true
+    },
+    "lite": {
+      "enabled": true,
+      "latestVersionCode": 18,
+      "latestVersionName": "1.1.9-lite",
+      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
+      "apkSha256": "70e9599386323fa00cf42177e5d21aaf39a8a53ec93e9173557c2d7688563dd3",
+      "releaseNotes": "Lite 1.1.9-lite: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+      "forceAfterDays": 1,
+      "forceUpdate": true
+    }
+  }
 }
