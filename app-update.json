@@ -3,7 +3,7 @@
   "latestVersionCode": 14,
   "latestVersionName": "1.1.5",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "b2b0a40a9f2211f1c3911736afc7be554c79365fab608b9fa24afe1bd53dec06",
+  "apkSha256": "794e1c3c84446713280534c97a0a7e666bc02cabe48f873142037813d35c68d2",
   "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
@@ -13,7 +13,7 @@
       "latestVersionCode": 14,
       "latestVersionName": "1.1.5",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "b2b0a40a9f2211f1c3911736afc7be554c79365fab608b9fa24afe1bd53dec06",
+      "apkSha256": "794e1c3c84446713280534c97a0a7e666bc02cabe48f873142037813d35c68d2",
       "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
@@ -23,7 +23,7 @@
       "latestVersionCode": 18,
       "latestVersionName": "1.1.9-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "70e9599386323fa00cf42177e5d21aaf39a8a53ec93e9173557c2d7688563dd3",
+      "apkSha256": "74b56f1baf8b9e8c70c432d3a9be850aaa4726db69d89d2e4f161e9187d08fce",
       "releaseNotes": "Lite 1.1.9-lite: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
