@@ -1,30 +1,30 @@
 {
   "enabled": true,
-  "latestVersionCode": 14,
-  "latestVersionName": "1.1.5",
+  "latestVersionCode": 16,
+  "latestVersionName": "1.1.7",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "794e1c3c84446713280534c97a0a7e666bc02cabe48f873142037813d35c68d2",
-  "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+  "apkSha256": "3d68cc4705e67d5279ca954031b5f6fc11faac07a29e7b7b4f3f5bcb57cbbd15",
+  "releaseNotes": "Main 1.1.7: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
   "channels": {
     "main": {
       "enabled": true,
-      "latestVersionCode": 14,
-      "latestVersionName": "1.1.5",
+      "latestVersionCode": 16,
+      "latestVersionName": "1.1.7",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "794e1c3c84446713280534c97a0a7e666bc02cabe48f873142037813d35c68d2",
-      "releaseNotes": "Main 1.1.5: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+      "apkSha256": "3d68cc4705e67d5279ca954031b5f6fc11faac07a29e7b7b4f3f5bcb57cbbd15",
+      "releaseNotes": "Main 1.1.7: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     },
     "lite": {
       "enabled": true,
-      "latestVersionCode": 18,
-      "latestVersionName": "1.1.9-lite",
+      "latestVersionCode": 20,
+      "latestVersionName": "1.1.11-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "74b56f1baf8b9e8c70c432d3a9be850aaa4726db69d89d2e4f161e9187d08fce",
-      "releaseNotes": "Lite 1.1.9-lite: perbaikan restore E2EE setelah reinstall (backup key) + daftar chat menampilkan preview pesan terbaru (auto-decrypt) + refresh public key saat kirim dari web + perbaikan bubble unread palsu + sinkron pesan web -> native.\n\nUpdate ini WAJIB.",
+      "apkSha256": "8876239990c789972e050f3a7ae6396333ffd6690600d15cd76a939112afe477",
+      "releaseNotes": "Lite 1.1.11-lite: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     }
