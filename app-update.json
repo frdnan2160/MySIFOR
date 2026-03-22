@@ -1,20 +1,20 @@
 {
   "enabled": true,
-  "latestVersionCode": 17,
-  "latestVersionName": "1.1.8",
+  "latestVersionCode": 18,
+  "latestVersionName": "1.1.9",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "1C2D6FAF25C97E4E6EE7C8238EB8168B905171E40FFD80C65FBAFFDE24588D2D",
-  "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+  "apkSha256": "B70EBFCEA3990C3B8905054F8FD5A7121A06538DDCADD600E9E013386D309D36",
+  "releaseNotes": "Main 1.1.9 - Ringkasan fitur dari awal hingga kini:\n- Login berbasis role (siswa/sekretaris/bendahara) dengan menu menyesuaikan hak akses.\n- Dashboard ringkasan pelajaran, tugas, ujian, event, dan pembayaran.\n- Jadwal pelajaran harian + status pelajaran (belum mulai/berlangsung/jeda/selesai) dengan parsing jam 07:00/07.00.\n- Chat: inbox, direct message, grup kelas, arsip, pencarian, salin/hapus pesan.\n- Keuangan: ringkasan kas/infaq/event, tunggakan, dan alert pembayaran.\n- Notifikasi & reminder: adzan (channel Shubuh khusus), tugas, ujian, event, chat unread.\n- Background sync via WorkManager agar reminder tetap jalan walau aplikasi jarang dibuka.\n- Piket & MBG: peringatan piket saat jam pelajaran hingga +15 menit setelah selesai, reminder 15 menit sebelum MBG dan saat MBG berlangsung.\n- Update APK otomatis (unduh background, instal tetap konfirmasi) + gate update wajib.\n- Stabilitas login lintas role (termasuk Android 9), optimasi performa, dan refresh UI/UX.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
   "channels": {
     "main": {
       "enabled": true,
-      "latestVersionCode": 17,
-      "latestVersionName": "1.1.8",
+      "latestVersionCode": 18,
+      "latestVersionName": "1.1.9",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "1C2D6FAF25C97E4E6EE7C8238EB8168B905171E40FFD80C65FBAFFDE24588D2D",
-      "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "B70EBFCEA3990C3B8905054F8FD5A7121A06538DDCADD600E9E013386D309D36",
+      "releaseNotes": "Main 1.1.9 - Ringkasan fitur dari awal hingga kini:\n- Login berbasis role (siswa/sekretaris/bendahara) dengan menu menyesuaikan hak akses.\n- Dashboard ringkasan pelajaran, tugas, ujian, event, dan pembayaran.\n- Jadwal pelajaran harian + status pelajaran (belum mulai/berlangsung/jeda/selesai) dengan parsing jam 07:00/07.00.\n- Chat: inbox, direct message, grup kelas, arsip, pencarian, salin/hapus pesan.\n- Keuangan: ringkasan kas/infaq/event, tunggakan, dan alert pembayaran.\n- Notifikasi & reminder: adzan (channel Shubuh khusus), tugas, ujian, event, chat unread.\n- Background sync via WorkManager agar reminder tetap jalan walau aplikasi jarang dibuka.\n- Piket & MBG: peringatan piket saat jam pelajaran hingga +15 menit setelah selesai, reminder 15 menit sebelum MBG dan saat MBG berlangsung.\n- Update APK otomatis (unduh background, instal tetap konfirmasi) + gate update wajib.\n- Stabilitas login lintas role (termasuk Android 9), optimasi performa, dan refresh UI/UX.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     },
@@ -23,7 +23,7 @@
       "latestVersionCode": 21,
       "latestVersionName": "1.1.12-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "C9528BF86A55C90D859410E2BB30E3EE143256B8D83A05358F72C31858BCA581",
+      "apkSha256": "D75798F69B17EB2DF74B6EDA5FB192CB00041A9728979110C4ED97E419DB643A",
       "releaseNotes": "Lite 1.1.12-lite: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
