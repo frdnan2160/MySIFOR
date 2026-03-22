@@ -1,231 +1,245 @@
-# MySIFOR - Panduan Pengguna
+# MySIFOR - Panduan Pengguna (Siswa, Sekretaris, Bendahara)
 
 MySIFOR adalah aplikasi informasi Forum Kesiswaan TJKT berbasis Android.
-Panduan ini ditujukan untuk pengguna:
+Panduan ini hanya untuk peran:
 - `Siswa`
 - `Sekretaris` (special role)
 - `Bendahara` (special role)
 
-Catatan:
+Catatan penting:
 - Akun, hak akses, dan konfigurasi sistem dikelola oleh Pengelola MySIFOR.
-- Jika ada data/akses yang tidak sesuai, laporkan ke Pengelola.
-- `Sekretaris` dan `Bendahara` adalah *special role* yang bisa ditempelkan ke akun (misalnya akun siswa yang merangkap sekretaris/bendahara kelas).
+- `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
+- Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (18 Maret 2026)
-
-- `Main`: `versionName 1.1.5` (`versionCode 14`)
-- `Lite`: `versionName 1.1.9-lite` (`versionCode 18`)
+## Status Rilis (22 Maret 2026)
+- `Main`: `versionName 1.1.9` (`versionCode 18`)
+- `Lite`: `versionName 1.1.12-lite` (`versionCode 21`)
 
 ## Edisi Aplikasi (Main vs Lite)
 
-### Ringkas Perbedaan
 | Aspek | Main | Lite |
 |---|---|---|
-| Fokus | UI lebih kaya, komponen lebih lengkap | UI ringan, render cepat, hemat resource |
+| Fokus | UI lebih kaya dan detail | UI ringan, hemat resource |
 | Target perangkat | Spek menengah ke atas | Spek rendah sampai menengah |
-| Komponen visual | Material card/statistik lengkap | Panel flat ringan dengan komponen AppCompat |
-| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti, tampilan lebih sederhana |
+| Komponen visual | Material card/statistik lengkap | Panel flat ringan |
+| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti |
 | Channel update | `main` | `lite` |
 
-### Fitur Utama Main
-- Dashboard per role dengan komponen statistik lengkap dan visual lebih detail.
-- Aksi Cepat Spiritual (Al-Qur'an / Kitab Suci) tersedia sesuai agama akun.
-- Detail surah bisa di-minimize/tampilkan ulang sesuai kebutuhan baca.
-- Tafsir per ayat tersedia dengan toggle, default tersembunyi untuk jaga performa.
-- Cocok untuk pengguna yang ingin tampilan penuh dan informasi lebih kaya per layar.
+Rekomendasi:
+- Pilih `Main` untuk tampilan lengkap.
+- Pilih `Lite` jika HP terbatas atau ingin lebih ringan.
 
-### Fitur Utama Lite
-- Dashboard tetap lengkap secara fungsi, tapi UI disederhanakan agar scrolling lebih ringan.
-- Aksi Cepat Spiritual (Al-Qur'an / Kitab Suci) tetap di posisi paling atas.
-- Mode Al-Qur'an v1 berfokus pada ayat + arti agar akses cepat.
-- Komponen tombol/panel dioptimalkan untuk perangkat RAM lebih kecil.
-- Cocok untuk penggunaan harian yang mengutamakan respons cepat.
+## Istilah Singkat
+- `Piket`: jadwal tugas kebersihan kelas.
+- `MBG`: jam pengambilan Makan Bergizi Gratis (berdasarkan jadwal pelajaran).
+- `Event`: kegiatan kelas yang memiliki agenda dan kadang iuran.
+- `Kas` dan `Infaq`: pembayaran rutin kelas.
+- `Literasi`: laporan kegiatan membaca yang diinput siswa.
+- `Pelanggaran`: catatan pelanggaran siswa yang dicatat petugas/guru/admin.
 
-### Fitur yang Sama di Main dan Lite
-- Login dan akses berbasis role (menu mengikuti hak akses akun).
-- Chat (inbox, direct message, grup kelas, chat baru).
-- Dashboard & modul inti: jadwal/pelajaran, tugas, ujian, event, ringkasan pembayaran (tergantung role).
-- Notifikasi penting dan reminder adzan.
-- Mekanisme update APK dari channel masing-masing.
+## Mulai Cepat
+1. Install APK resmi.
+2. Login dengan `username` dan `password`.
+3. Aktifkan izin notifikasi.
+4. Buka dashboard sesuai peran.
 
-
-## 1. Tujuan Aplikasi
-
-MySIFOR membantu pengguna untuk:
-- Melihat ringkasan kegiatan harian.
-- Memantau jadwal, tugas, ujian, dan agenda.
-- Berkomunikasi melalui chat.
-- Menerima notifikasi penting dan pengingat shalat.
-
-## 2. Ringkasan Hak Akses
-
-### 2.1 Siswa
-- Akses dashboard siswa.
-- Lihat jadwal, tugas, ujian, profil, dan ringkasan aktivitas.
-- Gunakan fitur chat.
-
-### 2.2 Sekretaris (special role)
-- Akses menu sekretariat sesuai kewenangan.
-- Pantau/kelola data administrasi, agenda, tugas, dan ujian.
-- Gunakan fitur chat untuk koordinasi.
-
-### 2.3 Bendahara (special role)
-- Akses menu keuangan sesuai kewenangan.
-- Pantau infaq, kas, event, tunggakan, dan laporan.
-- Gunakan fitur chat untuk koordinasi.
-
-## 3. Persiapan Sebelum Pakai
-
-Sebelum install/login, pastikan:
-1. Kamu sudah menerima `username` dan `password` dari Pengelola.
-2. Internet stabil.
-3. Memori penyimpanan cukup.
-4. Izin notifikasi MySIFOR diaktifkan.
-
-## 4. Instalasi APK (Android)
-
+## Instalasi APK (Android)
 1. Download APK terbaru dari sumber resmi.
 2. Buka file APK.
-3. Jika diminta, aktifkan `Install unknown apps` untuk sumber tersebut.
+3. Jika diminta, aktifkan `Install unknown apps`.
 4. Selesaikan instalasi.
 5. Buka aplikasi dan login.
 
-## 5. Login
-
+## Login
 1. Buka aplikasi MySIFOR.
 2. Isi `Username`.
 3. Isi `Password`.
 4. Tekan `Masuk`.
 
 Jika login gagal:
-1. Cek kembali username/password (case-sensitive).
+1. Cek kembali username dan password (case-sensitive).
 2. Pastikan internet aktif.
 3. Tutup-buka aplikasi.
 4. Jika tetap gagal, hubungi Pengelola.
 
 Catatan password default:
-- Jika muncul notifikasi bahwa akun masih memakai password default, segera ganti password lewat web MySIFOR (menu `Ganti Password`) untuk keamanan.
+- Jika muncul notifikasi akun masih memakai password default, segera ganti password lewat web MySIFOR (menu `Ganti Password`).
 
-## 6. Dashboard
+## Navigasi Umum
+- Menu yang tampil mengikuti peran akun.
+- Tombol `Refresh` memuat data terbaru dari server.
+- Badge pada ikon chat menandakan pesan baru.
+- Jika role atau data kelas berubah, menu akan menyesuaikan setelah login ulang.
 
-### 6.1 Dashboard Siswa
-Menampilkan:
-- Pelajaran saat ini.
-- Status tugas aktif.
-- Ujian terdekat.
-- Jadwal shalat/jadwal ibadah (menyesuaikan agama akun).
-- Ringkasan event dan pembayaran.
+## Keamanan & Privasi
+- Pesan chat terenkripsi.
 
-### 6.2 Dashboard Sekretaris
-Menampilkan ringkasan administrasi, statistik tugas/event/ujian, dan akses cepat sekretariat.
+## Peran dan Fitur
 
-### 6.3 Dashboard Bendahara
-Menampilkan ringkasan infaq/kas/event, data tunggakan, dan akses cepat transaksi/laporan.
+### 1) Siswa
+Tujuan siswa adalah memantau aktivitas belajar harian, menerima pengingat, dan berkomunikasi.
 
-### 6.4 Aksi Cepat Spiritual (Al-Qur'an / Kitab Suci)
-- Tombol spiritual menyesuaikan agama akun:
-  - Akun Islam: `Al-Qur'an`
-  - Akun Kristen/Katolik: `Kitab Suci`
-- Pada `Main`, detail bacaan dibuat lebih nyaman (header informatif, list rapi, dan tafsir per ayat bisa di-toggle).
-- Pada channel `Lite` (v1), fokus utama tampilan adalah ayat + arti dengan mode lebih ringan.
+A. Dashboard Siswa
+- Pelajaran hari ini dengan status `belum mulai`, `sedang berlangsung`, `jeda`, atau `selesai`.
+- Ringkasan tugas aktif beserta jumlah tugas dan deadline terdekat.
+- Ringkasan ujian terdekat.
+- Ringkasan event/agenda kelas.
+- Ringkasan pembayaran (kas/infaq/event) jika data tersedia.
+- Informasi jadwal ibadah (menyesuaikan agama akun).
 
-## 7. Fitur Chat
+B. Cara Membaca Status Pelajaran
+- `Belum mulai`: belum masuk jam pertama.
+- `Sedang berlangsung`: jam pelajaran aktif.
+- `Jeda`: jeda antar jam pelajaran.
+- `Selesai`: semua jam pelajaran hari itu selesai.
 
-### 7.1 Daftar Chat
-- Lihat inbox dan arsip chat.
-- Cari chat.
-- Buka chat pengelola atau chat direct.
+C. Jadwal Pelajaran
+- Lihat jadwal harian dan jadwal per minggu.
+- Detail mapel per jam (format jam `07:00` dan `07.00` sama-sama valid).
+- Jadwal otomatis menentukan status pelajaran real-time.
 
-### 7.2 Ruang Chat
-- Kirim dan baca pesan.
-- Long press pesan untuk salin/hapus.
-- Aksi room: arsipkan atau sembunyikan chat.
+D. Tugas dan Ujian
+- Tugas aktif menampilkan judul, mapel, dan deadline.
+- Ujian terdekat tampil pada ringkasan dashboard.
+- Tugas/ujian lama otomatis disembunyikan jika sudah lewat.
 
-### 7.3 Chat Baru
-- Tambah kontak lewat NIS/Email.
-- Pilih kontak untuk membuka direct message.
+E. Event dan Agenda
+- Event aktif tampil di ringkasan event.
+- Detail event memuat judul, tanggal, dan keterangan.
 
-Catatan grup kelas:
-- Chat grup kelas biasanya dibatasi untuk kelas yang sama, kecuali akun tertentu sesuai kebijakan.
+F. Pembayaran
+- Ringkasan kas/infaq/event tampil jika kelas memakai modul pembayaran.
+- Peringatan tunggakan muncul bila ada pembayaran belum lunas.
 
-## 8. Notifikasi Adzan
+G. Piket dan MBG
+- Peringatan piket muncul saat jam pelajaran berlangsung hingga +15 menit setelah pelajaran selesai.
+- Reminder MBG muncul 15 menit sebelum jadwal MBG dan saat MBG berlangsung.
+- Peringatan tampil sebagai notifikasi dan dialog yang menutupi layar.
 
-Catatan:
+H. Chat
+- Inbox chat untuk melihat pesan masuk.
+- Direct message untuk chat pribadi.
+- Grup kelas untuk komunikasi kelas.
+- Arsip chat, pencarian chat, serta salin/hapus pesan.
+- Semua pesan chat terenkripsi.
+
+I. Profil
+- Lihat identitas akun dan info kelas.
+
+J. Literasi
+- Buat laporan literasi (judul/keterangan ringkas).
+- Riwayat literasi tampil di profil.
+
+K. Pelanggaran
+- Terima catatan pelanggaran yang dibuat petugas/guru/admin.
+- Riwayat pelanggaran tampil di profil siswa.
+
+### 2) Sekretaris (special role)
+Tujuan sekretaris adalah administrasi dan monitoring aktivitas kelas.
+
+A. Dashboard Sekretaris
+- Ringkasan tugas, ujian, dan agenda kelas.
+- Ringkasan pelanggaran/dresscode jika diaktifkan oleh Pengelola.
+
+B. Jadwal Pelajaran
+- Pantau jadwal pelajaran kelas.
+- Pastikan jam pelajaran konsisten agar status pelajaran akurat.
+
+C. Tugas dan Ujian
+- Input tugas dan ujian kelas sesuai kebutuhan guru/pengurus.
+- Pantau daftar tugas aktif dan jadwal ujian.
+
+D. Agenda dan Kegiatan
+- Catat agenda kelas dan kegiatan penting.
+- Pastikan event yang sudah lewat tidak mengganggu ringkasan.
+
+E. Chat
+- Koordinasi dengan anggota kelas dan pengelola.
+
+### 3) Bendahara (special role)
+Tujuan bendahara adalah mengelola keuangan kelas.
+
+A. Dashboard Bendahara
+- Ringkasan kas/infaq/event.
+- Ringkasan tunggakan dan status pembayaran.
+
+B. Kas
+- Catat transaksi kas harian.
+- Pantau pembayaran siswa (lunas atau belum).
+- Cek ringkasan tunggakan untuk minggu berjalan.
+
+C. Infaq
+- Catat pembayaran infaq.
+- Lihat status infaq harian (misal khusus hari Jumat).
+
+D. Event
+- Kelola pembayaran event kelas.
+- Lihat daftar siswa yang sudah bayar dan belum bayar.
+- Pantau target iuran dan realisasi.
+
+E. Laporan
+- Rekap transaksi kas dan infaq.
+- Pantau ringkasan event untuk pelaporan ke kelas.
+
+F. Chat
+- Koordinasi terkait pembayaran dan laporan.
+
+## Notifikasi dan Pengingat
 - Notifikasi dan suara adzan hanya dijadwalkan untuk akun `Islam`.
-
-Perilaku audio:
-- `Shubuh` memakai channel/audio khusus shubuh.
-- `Dzuhur`, `Ashar`, `Maghrib`, `Isya` memakai adzan reguler.
+- `Shubuh` memakai channel/audio khusus Shubuh, waktu lain memakai adzan reguler.
+- Reminder penting meliputi chat unread, tugas, ujian, event, serta piket/MBG.
 
 Agar adzan berbunyi:
 1. Aktifkan izin notifikasi aplikasi.
 2. Pastikan volume media/alarm tidak nol.
-3. Pastikan tidak mode senyap / DND.
+3. Pastikan tidak mode senyap/DND.
 4. Nonaktifkan pembatasan baterai ekstrem untuk MySIFOR.
 
 Kompatibilitas:
 - Minimal Android `6.0 (API 23)`.
 - Android 13+ wajib izin notifikasi.
 
-## 9. Notifikasi Saat Aplikasi Lama Tidak Dibuka
+## Sinkronisasi Latar Belakang
+- Aplikasi menyinkronkan data secara berkala agar reminder tetap berjalan meski aplikasi jarang dibuka.
+- Disarankan membuka aplikasi sesekali agar data dan sesi tetap segar.
 
-- Aplikasi memakai sinkronisasi background periodik.
-- Notifikasi chat/reminder tetap dicek walau aplikasi lama tidak dibuka.
-- Tetap disarankan membuka aplikasi sesekali agar sinkronisasi akun dan data lebih cepat.
-
-## 10. Update Aplikasi
-
+## Update Aplikasi
 Saat ada versi baru, aplikasi dapat menampilkan prompt update.
-Prompt biasanya muncul setelah login / saat aplikasi memeriksa update (butuh internet).
-
-Mekanisme yang didukung:
-- Download APK di background.
+Mekanisme update:
+- APK diunduh di background.
 - Instalasi tetap perlu konfirmasi pengguna.
+- Jika update ditandai wajib, pengguna harus update sebelum melanjutkan.
 
 Channel update:
 - `Main` mengambil update dari jalur rilis Main.
 - `Lite` mengambil update dari jalur rilis Lite.
-- Versi aktif per 18 Maret 2026: Main `1.1.5 (14)` dan Lite `1.1.9-lite (18)`.
 
+## Troubleshooting
 
-## 11. Troubleshooting
-
-### 11.1 Notifikasi tidak masuk
+### Notifikasi tidak masuk
 1. Cek izin notifikasi MySIFOR.
 2. Cek pengaturan baterai (jangan dibatasi ketat).
 3. Cek internet.
 4. Restart HP.
 
-### 11.2 Notifikasi masuk tapi tanpa suara
+### Notifikasi masuk tapi tanpa suara
 1. Naikkan volume media/alarm.
-2. Matikan mode senyap / DND.
+2. Matikan mode senyap/DND.
 3. Cek channel notifikasi MySIFOR (suara harus aktif).
 
-### 11.3 Aplikasi terasa lambat
+### Aplikasi terasa lambat
 1. Pastikan sudah di versi terbaru.
 2. Gunakan koneksi stabil.
 3. Tutup aplikasi berat lain.
 4. Sisakan storage internal yang cukup.
 
-### 11.4 Gagal update APK
+### Gagal update APK
 1. Cek storage.
 2. Cek izin install unknown apps.
 3. Hapus file APK lama yang rusak.
 4. Download ulang APK terbaru.
 
-## 12. FAQ
-
-### Apakah semua role punya menu yang sama?
-Tidak. Menu mengikuti role akun dan hak akses yang diatur Pengelola MySIFOR.
-
-### Siapa yang bisa ubah role akun?
-Hanya Pengelola MySIFOR.
-
-### Apakah update selalu wajib?
-Tergantung kebijakan rilis. Jika ditandai wajib, user harus update untuk lanjut.
-
-## 13. Bantuan
-
+## Bantuan
 Jika ada masalah:
 1. Catat waktu kejadian dan fitur yang bermasalah.
 2. Sertakan screenshot.
