@@ -1,30 +1,30 @@
 {
   "enabled": true,
-  "latestVersionCode": 16,
-  "latestVersionName": "1.1.7",
+  "latestVersionCode": 17,
+  "latestVersionName": "1.1.8",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "3d68cc4705e67d5279ca954031b5f6fc11faac07a29e7b7b4f3f5bcb57cbbd15",
-  "releaseNotes": "Main 1.1.7: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+  "apkSha256": "24ec175284d1421774da0c5a6e0dc92a3a0ce6ea04803014a8da7f68fa726835",
+  "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
   "channels": {
     "main": {
       "enabled": true,
-      "latestVersionCode": 16,
-      "latestVersionName": "1.1.7",
+      "latestVersionCode": 17,
+      "latestVersionName": "1.1.8",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "3d68cc4705e67d5279ca954031b5f6fc11faac07a29e7b7b4f3f5bcb57cbbd15",
-      "releaseNotes": "Main 1.1.7: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "24ec175284d1421774da0c5a6e0dc92a3a0ce6ea04803014a8da7f68fa726835",
+      "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     },
     "lite": {
       "enabled": true,
-      "latestVersionCode": 20,
-      "latestVersionName": "1.1.11-lite",
+      "latestVersionCode": 21,
+      "latestVersionName": "1.1.12-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "8876239990c789972e050f3a7ae6396333ffd6690600d15cd76a939112afe477",
-      "releaseNotes": "Lite 1.1.11-lite: perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "b9020202245c2724540794e231243be76a848e3c6acf6765a6d90ce8968b255a",
+      "releaseNotes": "Lite 1.1.12-lite: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     }
