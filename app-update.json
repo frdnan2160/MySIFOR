@@ -3,8 +3,8 @@
   "latestVersionCode": 17,
   "latestVersionName": "1.1.8",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "24ec175284d1421774da0c5a6e0dc92a3a0ce6ea04803014a8da7f68fa726835",
-  "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+  "apkSha256": "1C2D6FAF25C97E4E6EE7C8238EB8168B905171E40FFD80C65FBAFFDE24588D2D",
+  "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
   "channels": {
@@ -13,8 +13,8 @@
       "latestVersionCode": 17,
       "latestVersionName": "1.1.8",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "24ec175284d1421774da0c5a6e0dc92a3a0ce6ea04803014a8da7f68fa726835",
-      "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "1C2D6FAF25C97E4E6EE7C8238EB8168B905171E40FFD80C65FBAFFDE24588D2D",
+      "releaseNotes": "Main 1.1.8: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     },
@@ -23,8 +23,8 @@
       "latestVersionCode": 21,
       "latestVersionName": "1.1.12-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "b9020202245c2724540794e231243be76a848e3c6acf6765a6d90ce8968b255a",
-      "releaseNotes": "Lite 1.1.12-lite: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke kanan atas dashboard (ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "C9528BF86A55C90D859410E2BB30E3EE143256B8D83A05358F72C31858BCA581",
+      "releaseNotes": "Lite 1.1.12-lite: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     }
