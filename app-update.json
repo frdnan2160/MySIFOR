@@ -1,9 +1,9 @@
-{
+﻿{
   "enabled": true,
   "latestVersionCode": 20,
   "latestVersionName": "1.1.11",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "D3569C45484D6918F0F414D3F5EF4C95DDEF75799B66D7AF273F4FC111C137CF",
+  "apkSha256": "97B760E594125303A745636C4705A97BEC77D4FE08AC2AF07C145C1AE23DE834",
   "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
@@ -13,7 +13,7 @@
       "latestVersionCode": 20,
       "latestVersionName": "1.1.11",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "D3569C45484D6918F0F414D3F5EF4C95DDEF75799B66D7AF273F4FC111C137CF",
+      "apkSha256": "97B760E594125303A745636C4705A97BEC77D4FE08AC2AF07C145C1AE23DE834",
       "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
@@ -23,7 +23,7 @@
       "latestVersionCode": 24,
       "latestVersionName": "1.1.15-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "C4CD435D5BAA88BFB84A2483D755565F95FBFC0CE2BA5602BB0C09A0AB5BF9CC",
+      "apkSha256": "8DFE6B41B19402AD7665FEDD0EDC50CD42A1A196F092ED0C8CFE89843E5905BC",
       "releaseNotes": "Lite 1.1.15-lite: perbaikan kontras font tema terang + tunggakan pembayaran tidak ketutupan + sistem infaq model event (buat infaq sekali, ceklist pembayaran di detail) + laporan/riwayat ikut menyesuaikan + lite UI/UX dirombak total (font Outfit, palet warna baru, panel & button lebih fresh).\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
