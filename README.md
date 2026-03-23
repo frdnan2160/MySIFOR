@@ -11,9 +11,9 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (22 Maret 2026)
-- `Main`: `versionName 1.1.9` (`versionCode 18`)
-- `Lite`: `versionName 1.1.12-lite` (`versionCode 21`)
+## Status Rilis (23 Maret 2026)
+- `Main`: `versionName 1.1.11` (`versionCode 20`)
+- `Lite`: `versionName 1.1.15-lite` (`versionCode 24`)
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -169,8 +169,9 @@ B. Kas
 - Cek ringkasan tunggakan untuk minggu berjalan.
 
 C. Infaq
-- Catat pembayaran infaq.
-- Lihat status infaq harian (misal khusus hari Jumat).
+- Buat infaq sekali per periode/tanggal.
+- Checklist pembayaran per siswa di halaman detail.
+- Pantau progres terkumpul dan sisa target.
 
 D. Event
 - Kelola pembayaran event kelas.
@@ -178,7 +179,7 @@ D. Event
 - Pantau target iuran dan realisasi.
 
 E. Laporan
-- Rekap transaksi kas dan infaq.
+- Rekap kas dan infaq (model event).
 - Pantau ringkasan event untuk pelaporan ke kelas.
 
 F. Chat
