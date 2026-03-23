@@ -1,30 +1,30 @@
 {
   "enabled": true,
-  "latestVersionCode": 18,
-  "latestVersionName": "1.1.9",
+  "latestVersionCode": 20,
+  "latestVersionName": "1.1.11",
   "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "B70EBFCEA3990C3B8905054F8FD5A7121A06538DDCADD600E9E013386D309D36",
-  "releaseNotes": "Main 1.1.9 - Ringkasan fitur dari awal hingga kini:\n- Login berbasis role (siswa/sekretaris/bendahara) dengan menu menyesuaikan hak akses.\n- Dashboard ringkasan pelajaran, tugas, ujian, event, dan pembayaran.\n- Jadwal pelajaran harian + status pelajaran (belum mulai/berlangsung/jeda/selesai) dengan parsing jam 07:00/07.00.\n- Chat: inbox, direct message, grup kelas, arsip, pencarian, salin/hapus pesan.\n- Keuangan: ringkasan kas/infaq/event, tunggakan, dan alert pembayaran.\n- Notifikasi & reminder: adzan (channel Shubuh khusus), tugas, ujian, event, chat unread.\n- Background sync via WorkManager agar reminder tetap jalan walau aplikasi jarang dibuka.\n- Piket & MBG: peringatan piket saat jam pelajaran hingga +15 menit setelah selesai, reminder 15 menit sebelum MBG dan saat MBG berlangsung.\n- Update APK otomatis (unduh background, instal tetap konfirmasi) + gate update wajib.\n- Stabilitas login lintas role (termasuk Android 9), optimasi performa, dan refresh UI/UX.\n\nUpdate ini WAJIB.",
+  "apkSha256": "D3569C45484D6918F0F414D3F5EF4C95DDEF75799B66D7AF273F4FC111C137CF",
+  "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
   "forceAfterDays": 1,
   "forceUpdate": true,
   "channels": {
     "main": {
       "enabled": true,
-      "latestVersionCode": 18,
-      "latestVersionName": "1.1.9",
+      "latestVersionCode": 20,
+      "latestVersionName": "1.1.11",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "B70EBFCEA3990C3B8905054F8FD5A7121A06538DDCADD600E9E013386D309D36",
-      "releaseNotes": "Main 1.1.9 - Ringkasan fitur dari awal hingga kini:\n- Login berbasis role (siswa/sekretaris/bendahara) dengan menu menyesuaikan hak akses.\n- Dashboard ringkasan pelajaran, tugas, ujian, event, dan pembayaran.\n- Jadwal pelajaran harian + status pelajaran (belum mulai/berlangsung/jeda/selesai) dengan parsing jam 07:00/07.00.\n- Chat: inbox, direct message, grup kelas, arsip, pencarian, salin/hapus pesan.\n- Keuangan: ringkasan kas/infaq/event, tunggakan, dan alert pembayaran.\n- Notifikasi & reminder: adzan (channel Shubuh khusus), tugas, ujian, event, chat unread.\n- Background sync via WorkManager agar reminder tetap jalan walau aplikasi jarang dibuka.\n- Piket & MBG: peringatan piket saat jam pelajaran hingga +15 menit setelah selesai, reminder 15 menit sebelum MBG dan saat MBG berlangsung.\n- Update APK otomatis (unduh background, instal tetap konfirmasi) + gate update wajib.\n- Stabilitas login lintas role (termasuk Android 9), optimasi performa, dan refresh UI/UX.\n\nUpdate ini WAJIB.",
+      "apkSha256": "D3569C45484D6918F0F414D3F5EF4C95DDEF75799B66D7AF273F4FC111C137CF",
+      "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     },
     "lite": {
       "enabled": true,
-      "latestVersionCode": 21,
-      "latestVersionName": "1.1.12-lite",
+      "latestVersionCode": 24,
+      "latestVersionName": "1.1.15-lite",
       "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "D75798F69B17EB2DF74B6EDA5FB192CB00041A9728979110C4ED97E419DB643A",
-      "releaseNotes": "Lite 1.1.12-lite: peringatan sesi Firebase saat logout dipadamkan + peringatan decrypt cache otomatis dibersihkan + perbaikan crash logout + perbaikan crash tahan pesan (salin/hapus) + aksi pesan & pilih agama lebih rapi + jadwal pelajaran hari ini tampil sebagai daftar + navbar 5 menu (Kitab di tengah) + tombol Pesan pindah ke area aksi dashboard (sebelah Refresh, ikon pesawat kertas) + upgrade tampilan ikon/tombol/font/popup.\n\nUpdate ini WAJIB.",
+      "apkSha256": "C4CD435D5BAA88BFB84A2483D755565F95FBFC0CE2BA5602BB0C09A0AB5BF9CC",
+      "releaseNotes": "Lite 1.1.15-lite: perbaikan kontras font tema terang + tunggakan pembayaran tidak ketutupan + sistem infaq model event (buat infaq sekali, ceklist pembayaran di detail) + laporan/riwayat ikut menyesuaikan + lite UI/UX dirombak total (font Outfit, palet warna baru, panel & button lebih fresh).\n\nUpdate ini WAJIB.",
       "forceAfterDays": 1,
       "forceUpdate": true
     }
