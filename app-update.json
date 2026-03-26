@@ -1,32 +1,32 @@
 ﻿{
-  "enabled": true,
-  "latestVersionCode": 20,
-  "latestVersionName": "1.1.11",
-  "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-  "apkSha256": "97B760E594125303A745636C4705A97BEC77D4FE08AC2AF07C145C1AE23DE834",
-  "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
-  "forceAfterDays": 1,
-  "forceUpdate": true,
-  "channels": {
-    "main": {
-      "enabled": true,
-      "latestVersionCode": 20,
-      "latestVersionName": "1.1.11",
-      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-      "apkSha256": "97B760E594125303A745636C4705A97BEC77D4FE08AC2AF07C145C1AE23DE834",
-      "releaseNotes": "Main 1.1.11 - Update ke sistem infaq model event:\n- Infaq: buat sekali, lalu checklist pembayaran per siswa di detail.\n- Riwayat & laporan bendahara menyesuaikan model infaq baru.\n- Riwayat pembayaran siswa menampilkan status infaq (paid/unpaid).\n\nCatatan:\n- Infaq lama (koleksi lama) tidak otomatis muncul tanpa migrasi.\n\nUpdate ini WAJIB.",
-      "forceAfterDays": 1,
-      "forceUpdate": true
-    },
-    "lite": {
-      "enabled": true,
-      "latestVersionCode": 24,
-      "latestVersionName": "1.1.15-lite",
-      "apkUrl": "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-      "apkSha256": "8DFE6B41B19402AD7665FEDD0EDC50CD42A1A196F092ED0C8CFE89843E5905BC",
-      "releaseNotes": "Lite 1.1.15-lite: perbaikan kontras font tema terang + tunggakan pembayaran tidak ketutupan + sistem infaq model event (buat infaq sekali, ceklist pembayaran di detail) + laporan/riwayat ikut menyesuaikan + lite UI/UX dirombak total (font Outfit, palet warna baru, panel & button lebih fresh).\n\nUpdate ini WAJIB.",
-      "forceAfterDays": 1,
-      "forceUpdate": true
-    }
-  }
+    "enabled":  true,
+    "latestVersionCode":  22,
+    "latestVersionName":  "1.1.13",
+    "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+    "apkSha256":  "8D08889E2F1D03E800E0C3BC3424D6E301049B993C1B3FEFDB8C8B1AA81B2736",
+    "releaseNotes":  "Main 1.1.13 - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+    "forceAfterDays":  1,
+    "forceUpdate":  true,
+    "channels":  {
+                     "main":  {
+                                  "enabled":  true,
+                                  "latestVersionCode":  22,
+                                  "latestVersionName":  "1.1.13",
+                                  "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
+                                  "apkSha256":  "8D08889E2F1D03E800E0C3BC3424D6E301049B993C1B3FEFDB8C8B1AA81B2736",
+                                  "releaseNotes":  "Main 1.1.13 - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+                                  "forceAfterDays":  1,
+                                  "forceUpdate":  true
+                              },
+                     "lite":  {
+                                  "enabled":  true,
+                                  "latestVersionCode":  25,
+                                  "latestVersionName":  "1.1.16-lite",
+                                  "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
+                                  "apkSha256":  "06F066F3817FBE3FDAC42381322575C353512CD619508C83CC356DB56BD1F943",
+                                  "releaseNotes":  "Lite 1.1.16-lite - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+                                  "forceAfterDays":  1,
+                                  "forceUpdate":  true
+                              }
+                 }
 }
