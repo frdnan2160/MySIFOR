@@ -11,9 +11,9 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (23 Maret 2026)
-- `Main`: `versionName 1.1.11` (`versionCode 20`)
-- `Lite`: `versionName 1.1.15-lite` (`versionCode 24`)
+## Status Rilis (27 Maret 2026)
+- `Main`: `versionName 1.1.14` (`versionCode 23`)
+- `Lite`: `versionName 1.1.17-lite` (`versionCode 26`)
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -69,6 +69,7 @@ Catatan password default:
 - Menu yang tampil mengikuti peran akun.
 - Tombol `Refresh` memuat data terbaru dari server.
 - Badge pada ikon chat menandakan pesan baru.
+- Jika admin menyalakan pengumuman, teks berjalan tampil di bagian atas aplikasi.
 - Jika role atau data kelas berubah, menu akan menyesuaikan setelah login ulang.
 
 ## Keamanan & Privasi
@@ -167,11 +168,13 @@ B. Kas
 - Catat transaksi kas harian.
 - Pantau pembayaran siswa (lunas atau belum).
 - Cek ringkasan tunggakan untuk minggu berjalan.
+- Tracking kas bisa difilter per hari dengan dropdown hari dan nominal sesuai setup.
 
 C. Infaq
 - Buat infaq sekali per periode/tanggal.
 - Checklist pembayaran per siswa di halaman detail.
 - Pantau progres terkumpul dan sisa target.
+- Mode infaq tersedia: sama rata atau custom (nama + nominal per entri).
 
 D. Event
 - Kelola pembayaran event kelas.

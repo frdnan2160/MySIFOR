@@ -1,30 +1,30 @@
 ﻿{
     "enabled":  true,
-    "latestVersionCode":  22,
-    "latestVersionName":  "1.1.13",
+    "latestVersionCode":  23,
+    "latestVersionName":  "1.1.14",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "apkSha256":  "8D08889E2F1D03E800E0C3BC3424D6E301049B993C1B3FEFDB8C8B1AA81B2736",
-    "releaseNotes":  "Main 1.1.13 - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+    "apkSha256":  "CEB15C56C3FA839C78C112BFFF351FFDD2F33FC101F6469D85E9CFCA3EC4F4E6",
+    "releaseNotes":  "Main 1.1.14 - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
                      "main":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  22,
-                                  "latestVersionName":  "1.1.13",
+                                  "latestVersionCode":  23,
+                                  "latestVersionName":  "1.1.14",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "apkSha256":  "8D08889E2F1D03E800E0C3BC3424D6E301049B993C1B3FEFDB8C8B1AA81B2736",
-                                  "releaseNotes":  "Main 1.1.13 - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "CEB15C56C3FA839C78C112BFFF351FFDD2F33FC101F6469D85E9CFCA3EC4F4E6",
+                                  "releaseNotes":  "Main 1.1.14 - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },
                      "lite":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  25,
-                                  "latestVersionName":  "1.1.16-lite",
+                                  "latestVersionCode":  26,
+                                  "latestVersionName":  "1.1.17-lite",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-                                  "apkSha256":  "06F066F3817FBE3FDAC42381322575C353512CD619508C83CC356DB56BD1F943",
-                                  "releaseNotes":  "Lite 1.1.16-lite - perbaikan kas \u0026 stabilitas:\n- Checkbox kas menyesuaikan setup (hari nominal 0 tidak ditampilkan).\n- Sinkron chat lebih stabil (aturan + peringatan palsu).\n- Kirim pesan tidak lagi memunculkan warning gagal.\n- Login dibatasi max 5 detik; refresh profil lebih cepat.\n- Update check lebih cepat.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "93431C9AEFCE598B7F2908CBC9CC4C86E2269A45900CCD200F310EC937ADBBBF",
+                                  "releaseNotes":  "Lite 1.1.17-lite - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               }
