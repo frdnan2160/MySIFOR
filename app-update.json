@@ -1,30 +1,30 @@
-﻿{
+{
     "enabled":  true,
-    "latestVersionCode":  23,
-    "latestVersionName":  "1.1.14",
+    "latestVersionCode":  25,
+    "latestVersionName":  "1.1.16",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "apkSha256":  "CEB15C56C3FA839C78C112BFFF351FFDD2F33FC101F6469D85E9CFCA3EC4F4E6",
-    "releaseNotes":  "Main 1.1.14 - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
+    "apkSha256":  "50B9EC9B42886A8D89EA64A797931878F47973DEFEF9DDDB5A83453EDEFCF360",
+    "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
                      "main":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  23,
-                                  "latestVersionName":  "1.1.14",
+                                  "latestVersionCode":  25,
+                                  "latestVersionName":  "1.1.16",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "apkSha256":  "CEB15C56C3FA839C78C112BFFF351FFDD2F33FC101F6469D85E9CFCA3EC4F4E6",
-                                  "releaseNotes":  "Main 1.1.14 - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "50B9EC9B42886A8D89EA64A797931878F47973DEFEF9DDDB5A83453EDEFCF360",
+                                  "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },
                      "lite":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  26,
-                                  "latestVersionName":  "1.1.17-lite",
+                                  "latestVersionCode":  28,
+                                  "latestVersionName":  "1.1.19-lite",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-                                  "apkSha256":  "93431C9AEFCE598B7F2908CBC9CC4C86E2269A45900CCD200F310EC937ADBBBF",
-                                  "releaseNotes":  "Lite 1.1.17-lite - update popup, kas, dan pengumuman:\n- Tampilan popup detail pelanggaran/literasi lebih rapi + konsisten.\n- Infaq kini punya mode sama rata dan custom (dropdown nama/nominal, batal \u0026 hapus infaq).\n- Tracking kas pakai dropdown hari + nominal sesuai setup.\n- Pengumuman teks berjalan global (diatur admin: isi, jadwal, tempo).\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "33CB015CCD82F4D6B63E6072B188907604AFB9B3EBCFEC44B8CE6882DED48CF2",
+                                  "releaseNotes":  "Lite 1.1.19-lite - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               }

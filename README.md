@@ -11,9 +11,16 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (27 Maret 2026)
-- `Main`: `versionName 1.1.14` (`versionCode 23`)
-- `Lite`: `versionName 1.1.17-lite` (`versionCode 26`)
+## Status Rilis (28 Maret 2026)
+- `Main`: `versionName 1.1.16` (`versionCode 25`)
+- `Lite`: `versionName 1.1.19-lite` (`versionCode 28`)
+
+## Highlight Update (28 Maret 2026)
+- Riwayat infaq lebih lega (form bisa diminimalkan).
+- Tracking kas lebih lapang (setup default diminimalkan).
+- Checkbox daftar kas/infaq lebih mudah ditekan.
+- Login lebih stabil (timeout diperpanjang).
+- Progress infaq custom menghitung persentase siswa yang sudah bayar.
 
 ## Edisi Aplikasi (Main vs Lite)
 
