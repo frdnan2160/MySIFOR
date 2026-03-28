@@ -17,6 +17,7 @@ Catatan penting:
 
 ## Highlight Update (28 Maret 2026)
 - Riwayat infaq lebih lega (form bisa diminimalkan).
+- Daftar infaq custom di detail sekarang bisa di-scroll.
 - Tracking kas lebih lapang (setup default diminimalkan).
 - Checkbox daftar kas/infaq lebih mudah ditekan.
 - Login lebih stabil (timeout diperpanjang).

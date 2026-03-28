@@ -3,8 +3,8 @@
     "latestVersionCode":  25,
     "latestVersionName":  "1.1.16",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "apkSha256":  "50B9EC9B42886A8D89EA64A797931878F47973DEFEF9DDDB5A83453EDEFCF360",
-    "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+    "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
+    "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
@@ -13,8 +13,8 @@
                                   "latestVersionCode":  25,
                                   "latestVersionName":  "1.1.16",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "apkSha256":  "50B9EC9B42886A8D89EA64A797931878F47973DEFEF9DDDB5A83453EDEFCF360",
-                                  "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
+                                  "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },
@@ -23,8 +23,8 @@
                                   "latestVersionCode":  28,
                                   "latestVersionName":  "1.1.19-lite",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-                                  "apkSha256":  "33CB015CCD82F4D6B63E6072B188907604AFB9B3EBCFEC44B8CE6882DED48CF2",
-                                  "releaseNotes":  "Lite 1.1.19-lite - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "9F94CBB9CF457926870E07417D83BF6CCB778F4BBD45C301875A166BAB2A27F3",
+                                  "releaseNotes":  "Lite 1.1.19-lite - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               }
