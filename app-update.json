@@ -3,8 +3,8 @@
     "latestVersionCode":  26,
     "latestVersionName":  "1.1.17",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
-    "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nUpdate ini WAJIB.",
+    "apkSha256":  "79C3DB6AEEF0F5709C7E0EAE7264314AFA58CF606587BFEACF5FF157CAF28B96",
+    "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
@@ -13,8 +13,8 @@
                                   "latestVersionCode":  26,
                                   "latestVersionName":  "1.1.17",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
-                                  "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "79C3DB6AEEF0F5709C7E0EAE7264314AFA58CF606587BFEACF5FF157CAF28B96",
+                                  "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },
