@@ -1,20 +1,20 @@
 {
     "enabled":  true,
-    "latestVersionCode":  25,
-    "latestVersionName":  "1.1.16",
+    "latestVersionCode":  26,
+    "latestVersionName":  "1.1.17",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
     "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
-    "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+    "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
                      "main":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  25,
-                                  "latestVersionName":  "1.1.16",
+                                  "latestVersionCode":  26,
+                                  "latestVersionName":  "1.1.17",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
                                   "apkSha256":  "FAB9E2BA2ED892F18CC42607C4FFB3DFD99C866790E6229B774D206BE3D01080",
-                                  "releaseNotes":  "Main 1.1.16 - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+                                  "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },

@@ -1,7 +1,7 @@
 # MySIFOR - Panduan Pengguna (Siswa, Sekretaris, Bendahara)
 
 MySIFOR adalah aplikasi informasi Forum Kesiswaan TJKT berbasis Android.
-Panduan ini hanya untuk peran:
+Panduan ini mencakup peran:
 - `Siswa`
 - `Sekretaris` (special role)
 - `Bendahara` (special role)
@@ -11,17 +11,12 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (28 Maret 2026)
-- `Main`: `versionName 1.1.16` (`versionCode 25`)
+## Status Rilis (29 Maret 2026)
+- `Main`: `versionName 1.1.17` (`versionCode 26`)
 - `Lite`: `versionName 1.1.19-lite` (`versionCode 28`)
 
-## Highlight Update (28 Maret 2026)
-- Riwayat infaq lebih lega (form bisa diminimalkan).
-- Daftar infaq custom di detail sekarang bisa di-scroll.
-- Tracking kas lebih lapang (setup default diminimalkan).
-- Checkbox daftar kas/infaq lebih mudah ditekan.
-- Login lebih stabil (timeout diperpanjang).
-- Progress infaq custom menghitung persentase siswa yang sudah bayar.
+## Highlight Update (29 Maret 2026)
+- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form & detail).
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -43,7 +38,7 @@ Rekomendasi:
 - `Event`: kegiatan kelas yang memiliki agenda dan kadang iuran.
 - `Kas` dan `Infaq`: pembayaran rutin kelas.
 - `Literasi`: laporan kegiatan membaca yang diinput siswa.
-- `Pelanggaran`: catatan pelanggaran siswa yang dicatat petugas/guru/admin.
+- `Pelanggaran`: catatan pelanggaran siswa yang dicatat oleh pengelola.
 
 ## Mulai Cepat
 1. Install APK resmi.
@@ -77,8 +72,9 @@ Catatan password default:
 - Menu yang tampil mengikuti peran akun.
 - Tombol `Refresh` memuat data terbaru dari server.
 - Badge pada ikon chat menandakan pesan baru.
-- Jika admin menyalakan pengumuman, teks berjalan tampil di bagian atas aplikasi.
+- Jika pengelola menyalakan pengumuman, teks berjalan tampil di bagian atas aplikasi.
 - Jika role atau data kelas berubah, menu akan menyesuaikan setelah login ulang.
+- Label tab `Jadwal` bisa berubah sesuai peran akun.
 
 ## Keamanan & Privasi
 - Pesan chat terenkripsi.
@@ -134,13 +130,14 @@ H. Chat
 
 I. Profil
 - Lihat identitas akun dan info kelas.
+- Kitab suci sesuai agama tersedia (Al-Qur'an atau Kitab).
 
 J. Literasi
 - Buat laporan literasi (judul/keterangan ringkas).
 - Riwayat literasi tampil di profil.
 
 K. Pelanggaran
-- Terima catatan pelanggaran yang dibuat petugas/guru/admin.
+- Terima catatan pelanggaran yang dibuat oleh pengelola.
 - Riwayat pelanggaran tampil di profil siswa.
 
 ### 2) Sekretaris (special role)
@@ -155,7 +152,7 @@ B. Jadwal Pelajaran
 - Pastikan jam pelajaran konsisten agar status pelajaran akurat.
 
 C. Tugas dan Ujian
-- Input tugas dan ujian kelas sesuai kebutuhan guru/pengurus.
+- Input tugas dan ujian kelas sesuai kebutuhan pengurus kelas.
 - Pantau daftar tugas aktif dan jadwal ujian.
 
 D. Agenda dan Kegiatan
