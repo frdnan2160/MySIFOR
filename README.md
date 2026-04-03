@@ -11,12 +11,20 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (29 Maret 2026)
-- `Main`: `versionName 1.1.17` (`versionCode 26`)
+## Status Rilis (3 April 2026)
+- `Main`: `versionName 1.1.18` (`versionCode 27`)
 - `Lite`: `versionName 1.1.19-lite` (`versionCode 28`)
 
-## Highlight Update (29 Maret 2026)
-- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form & detail).
+## Highlight Update (3 April 2026)
+- Filter rentang laporan (hari ini/minggu ini/bulan ini).
+- Export laporan ke CSV & PDF ringkas.
+- Sematkan laporan penting dan tampil di dashboard.
+- Badge tindak lanjut untuk pelanggaran berat.
+- Snapshot dashboard untuk dibagikan.
+- Riwayat pembayaran menampilkan lunas/belum dibayar (siswa, sekretaris, bendahara).
+- Pengingat sekretaris otomatis ke chat grup kelas (pengirim: Sekretaris {Kelas}).
+- Progress event keuangan tampil lebih jelas (target & persentase).
+- Kas bisa diliburkan per hari dengan tanda status.
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -45,6 +53,17 @@ Rekomendasi:
 2. Login dengan `username` dan `password`.
 3. Aktifkan izin notifikasi.
 4. Buka dashboard sesuai peran.
+
+## Tutorial Download APK (Android)
+1. Buka halaman rilis resmi MySIFOR (GitHub Releases) lewat browser HP.
+2. Scroll ke bagian `Release`.
+3. Pilih file sesuai edisi: `MySIFOR.apk` (Main) atau `MySIFOR.Lite.apk` (Lite).
+4. Ketuk file untuk mulai download. Jika ada peringatan, pilih `Download anyway`.
+5. Setelah selesai, buka file dari notifikasi atau folder `Download`.
+6. Jika diminta, aktifkan izin `Install unknown apps` untuk browser yang dipakai.
+
+Catatan:
+Jangan pilih `Source code (zip)`. Yang dibutuhkan adalah file `.apk`.
 
 ## Instalasi APK (Android)
 1. Download APK terbaru dari sumber resmi.
@@ -115,6 +134,7 @@ E. Event dan Agenda
 F. Pembayaran
 - Ringkasan kas/infaq/event tampil jika kelas memakai modul pembayaran.
 - Peringatan tunggakan muncul bila ada pembayaran belum lunas.
+- Riwayat pembayaran di profil menampilkan status lunas & belum dibayar.
 
 G. Piket dan MBG
 - Peringatan piket muncul saat jam pelajaran berlangsung hingga +15 menit setelah pelajaran selesai.
@@ -161,6 +181,8 @@ D. Agenda dan Kegiatan
 
 E. Chat
 - Koordinasi dengan anggota kelas dan pengelola.
+- Pengingat otomatis ke chat grup kelas saat masa penugasan (pengirim: Sekretaris {Kelas}).
+- Riwayat pembayaran tersedia di profil (lunas/belum dibayar).
 
 ### 3) Bendahara (special role)
 Tujuan bendahara adalah mengelola keuangan kelas.
@@ -174,6 +196,7 @@ B. Kas
 - Pantau pembayaran siswa (lunas atau belum).
 - Cek ringkasan tunggakan untuk minggu berjalan.
 - Tracking kas bisa difilter per hari dengan dropdown hari dan nominal sesuai setup.
+- Kas dapat diliburkan per hari dan ditandai statusnya.
 
 C. Infaq
 - Buat infaq sekali per periode/tanggal.
@@ -185,6 +208,7 @@ D. Event
 - Kelola pembayaran event kelas.
 - Lihat daftar siswa yang sudah bayar dan belum bayar.
 - Pantau target iuran dan realisasi.
+- Progress event menampilkan persentase target terkumpul.
 
 E. Laporan
 - Rekap kas dan infaq (model event).
@@ -192,6 +216,7 @@ E. Laporan
 
 F. Chat
 - Koordinasi terkait pembayaran dan laporan.
+- Riwayat pembayaran tersedia di profil (lunas/belum dibayar).
 
 ## Notifikasi dan Pengingat
 - Notifikasi dan suara adzan hanya dijadwalkan untuk akun `Islam`.

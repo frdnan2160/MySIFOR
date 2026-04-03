@@ -1,20 +1,20 @@
 {
     "enabled":  true,
-    "latestVersionCode":  26,
-    "latestVersionName":  "1.1.17",
+    "latestVersionCode":  27,
+    "latestVersionName":  "1.1.18",
     "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-    "apkSha256":  "79C3DB6AEEF0F5709C7E0EAE7264314AFA58CF606587BFEACF5FF157CAF28B96",
-    "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
+    "apkSha256":  "C6EF42C892325591CE64C540564B8DB470BCB6154C04D43C23C3F3B0535544A8",
+    "releaseNotes":  "Main 1.1.18 - laporan \u0026 ringkasan:\n- Filter rentang laporan (hari ini/minggu ini/bulan ini).\n- Export laporan ke CSV \u0026 PDF ringkas.\n- Sematkan laporan penting, tampil di dashboard.\n- Badge Perlu tindak lanjut untuk pelanggaran berat.\n- Bagikan snapshot dashboard.\n- Cache laporan agar loading lebih cepat.\n- Validasi input pelanggaran \u0026 literasi lebih ketat.\n- Riwayat pembayaran menampilkan lunas/belum dibayar (siswa, sekretaris, bendahara).\n- Pengingat sekretaris otomatis ke chat grup kelas (pengirim: Sekretaris {Kelas}).\n- Progress event keuangan tampil lebih jelas (target \u0026 persentase).\n- Kas bisa diliburkan per hari dengan tanda status.\n- Tagihan kas mulai dihitung setelah setup kas disimpan.\n\nMain 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n- Tagihan kas mulai berjalan setelah bendahara menyimpan setup kas.\n- Aplikasi ini khusus jurusan TJKT (tanpa pihak luar/orang tua).\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
     "forceAfterDays":  1,
     "forceUpdate":  true,
     "channels":  {
                      "main":  {
                                   "enabled":  true,
-                                  "latestVersionCode":  26,
-                                  "latestVersionName":  "1.1.17",
+                                  "latestVersionCode":  27,
+                                  "latestVersionName":  "1.1.18",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
-                                  "apkSha256":  "79C3DB6AEEF0F5709C7E0EAE7264314AFA58CF606587BFEACF5FF157CAF28B96",
-                                  "releaseNotes":  "Main 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "C6EF42C892325591CE64C540564B8DB470BCB6154C04D43C23C3F3B0535544A8",
+                                  "releaseNotes":  "Main 1.1.18 - laporan \u0026 ringkasan:\n- Filter rentang laporan (hari ini/minggu ini/bulan ini).\n- Export laporan ke CSV \u0026 PDF ringkas.\n- Sematkan laporan penting, tampil di dashboard.\n- Badge Perlu tindak lanjut untuk pelanggaran berat.\n- Bagikan snapshot dashboard.\n- Cache laporan agar loading lebih cepat.\n- Validasi input pelanggaran \u0026 literasi lebih ketat.\n- Riwayat pembayaran menampilkan lunas/belum dibayar (siswa, sekretaris, bendahara).\n- Pengingat sekretaris otomatis ke chat grup kelas (pengirim: Sekretaris {Kelas}).\n- Progress event keuangan tampil lebih jelas (target \u0026 persentase).\n- Kas bisa diliburkan per hari dengan tanda status.\n- Tagihan kas mulai dihitung setelah setup kas disimpan.\n\nMain 1.1.17 - perapihan infaq \u0026 navigasi role:\n- Daftar infaq custom kini lebih lebar dan bisa di-scroll (form \u0026 detail).\n- Tombol simpan infaq custom tetap bisa dijangkau (halaman bisa di-scroll).\n- Dashboard petugas/guru/admin fokus analytics, swipe pindah halaman.\n- Ikon navbar menyesuaikan label (Jadwal/Laporan/Kelola).\n- Menu Jadwal petugas/guru menjadi Laporan (literasi \u0026 pelanggaran).\n- Menu Jadwal admin menjadi Kelola (literasi, pelanggaran, pengguna, assign roles).\n- Menu Tugas admin berisi laporan pelanggaran, import jadwal/dresscode, pengumuman, naik kelas.\n- Tagihan kas mulai berjalan setelah bendahara menyimpan setup kas.\n- Aplikasi ini khusus jurusan TJKT (tanpa pihak luar/orang tua).\n\nMain 1.1.16 - rilis stabil sebelumnya.\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               },
@@ -23,8 +23,8 @@
                                   "latestVersionCode":  28,
                                   "latestVersionName":  "1.1.19-lite",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Lite/MySIFOR.Lite.apk",
-                                  "apkSha256":  "9F94CBB9CF457926870E07417D83BF6CCB778F4BBD45C301875A166BAB2A27F3",
-                                  "releaseNotes":  "Lite 1.1.19-lite - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n\nUpdate ini WAJIB.",
+                                  "apkSha256":  "B9EB3A66FA03F8C93DC6C50DB334D139DDB3FF18D72A79D83DBCD8CC1A79EBC9",
+                                  "releaseNotes":  "Lite 1.1.19-lite - perapihan infaq \u0026 kas:\n- Riwayat infaq lebih lega (form bisa diminimalkan).\n- Daftar infaq custom di detail sekarang bisa di-scroll.\n- Tracking kas lebih lapang (setup default diminimalkan).\n- Area checkbox daftar kas/infaq lebih lebar dan nyaman ditekan.\n- Login lebih stabil (timeout diperpanjang).\n- Progress infaq custom menghitung persentase siswa yang sudah bayar.\n- Tagihan kas mulai berjalan setelah bendahara menyimpan setup kas.\n- Aplikasi ini khusus jurusan TJKT (tanpa pihak luar/orang tua).\n\nUpdate ini WAJIB.",
                                   "forceAfterDays":  1,
                                   "forceUpdate":  true
                               }
