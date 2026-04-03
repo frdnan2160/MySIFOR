@@ -25,6 +25,9 @@ Catatan penting:
 - Pengingat sekretaris otomatis ke chat grup kelas (pengirim: Sekretaris {Kelas}).
 - Progress event keuangan tampil lebih jelas (target & persentase).
 - Kas bisa diliburkan per hari dengan tanda status.
+- Perbaikan sinkronisasi tunggakan kas & riwayat pembayaran.
+- Perbaikan tampil infaq (dashboard & profil), termasuk infaq custom.
+- Ringkasan infaq di dashboard kini memisahkan `sama rata` dan `custom` bila keduanya ada.
 
 ## Edisi Aplikasi (Main vs Lite)
 
@@ -135,6 +138,10 @@ F. Pembayaran
 - Ringkasan kas/infaq/event tampil jika kelas memakai modul pembayaran.
 - Peringatan tunggakan muncul bila ada pembayaran belum lunas.
 - Riwayat pembayaran di profil menampilkan status lunas & belum dibayar.
+- Ringkasan infaq di dashboard:
+  - Jika ada infaq `sama rata` dan `custom` bersamaan, dashboard memisahkan keduanya.
+  - Jika hanya `sama rata` (meski lebih dari satu), dashboard menjumlahkan jadi satu baris.
+  - Infaq `custom` ditandai "nominal belum ditentukan" bila belum ada nominal.
 
 G. Piket dan MBG
 - Peringatan piket muncul saat jam pelajaran berlangsung hingga +15 menit setelah pelajaran selesai.
@@ -203,6 +210,7 @@ C. Infaq
 - Checklist pembayaran per siswa di halaman detail.
 - Pantau progres terkumpul dan sisa target.
 - Mode infaq tersedia: sama rata atau custom (nama + nominal per entri).
+- Ringkasan dashboard memisahkan `sama rata` dan `custom` bila keduanya ada.
 
 D. Event
 - Kelola pembayaran event kelas.
