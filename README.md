@@ -11,9 +11,9 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (3 April 2026)
+## Status Rilis (4 April 2026)
 - `Main`: `versionName 1.1.18` (`versionCode 27`)
-- `Lite`: `versionName 1.1.19-lite` (`versionCode 28`)
+- `Lite`: dihentikan per 4 April 2026. Gunakan `Main`.
 
 ## Highlight Update (3 April 2026)
 - Filter rentang laporan (hari ini/minggu ini/bulan ini).
@@ -29,19 +29,8 @@ Catatan penting:
 - Perbaikan tampil infaq (dashboard & profil), termasuk infaq custom.
 - Ringkasan infaq di dashboard kini memisahkan `sama rata` dan `custom` bila keduanya ada.
 
-## Edisi Aplikasi (Main vs Lite)
-
-| Aspek | Main | Lite |
-|---|---|---|
-| Fokus | UI lebih kaya dan detail | UI ringan, hemat resource |
-| Target perangkat | Spek menengah ke atas | Spek rendah sampai menengah |
-| Komponen visual | Material card/statistik lengkap | Panel flat ringan |
-| Al-Qur'an | Detail surah bisa minimize + tafsir ayat bisa toggle | Mode v1 fokus ayat + arti |
-| Channel update | `main` | `lite` |
-
-Rekomendasi:
-- Pilih `Main` untuk tampilan lengkap.
-- Pilih `Lite` jika HP terbatas atau ingin lebih ringan.
+## Edisi Aplikasi
+Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
 
 ## Istilah Singkat
 - `Piket`: jadwal tugas kebersihan kelas.
@@ -60,7 +49,7 @@ Rekomendasi:
 ## Tutorial Download APK (Android)
 1. Buka halaman rilis resmi MySIFOR (GitHub Releases) lewat browser HP.
 2. Scroll ke bagian `Release`.
-3. Pilih file sesuai edisi: `MySIFOR.apk` (Main) atau `MySIFOR.Lite.apk` (Lite).
+3. Pilih file `MySIFOR.apk` (Main).
 4. Ketuk file untuk mulai download. Jika ada peringatan, pilih `Download anyway`.
 5. Setelah selesai, buka file dari notifikasi atau folder `Download`.
 6. Jika diminta, aktifkan izin `Install unknown apps` untuk browser yang dipakai.
@@ -254,7 +243,6 @@ Mekanisme update:
 
 Channel update:
 - `Main` mengambil update dari jalur rilis Main.
-- `Lite` mengambil update dari jalur rilis Lite.
 
 ## Troubleshooting
 
