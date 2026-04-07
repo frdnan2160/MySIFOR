@@ -1,5 +1,4 @@
 # MySIFOR - Panduan Pengguna (Siswa, Sekretaris, Bendahara)
-
 MySIFOR adalah aplikasi informasi Forum Kesiswaan TJKT berbasis Android.
 Panduan ini mencakup peran:
 - `Siswa`
@@ -11,23 +10,18 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (4 April 2026)
-- `Main`: `versionName 1.1.18` (`versionCode 27`)
+## Status Rilis (7 April 2026)
+- `Main`: `versionName 1.1.19` (`versionCode 28`)
 - `Lite`: dihentikan per 4 April 2026. Gunakan `Main`.
 
-## Highlight Update (3 April 2026)
-- Filter rentang laporan (hari ini/minggu ini/bulan ini).
-- Export laporan ke CSV & PDF ringkas.
-- Sematkan laporan penting dan tampil di dashboard.
-- Badge tindak lanjut untuk pelanggaran berat.
-- Snapshot dashboard untuk dibagikan.
-- Riwayat pembayaran menampilkan lunas/belum dibayar (siswa, sekretaris, bendahara).
-- Pengingat sekretaris otomatis ke chat grup kelas (pengirim: Sekretaris {Kelas}).
-- Progress event keuangan tampil lebih jelas (target & persentase).
-- Kas bisa diliburkan per hari dengan tanda status.
-- Perbaikan sinkronisasi tunggakan kas & riwayat pembayaran.
-- Perbaikan tampil infaq (dashboard & profil), termasuk infaq custom.
-- Ringkasan infaq di dashboard kini memisahkan `sama rata` dan `custom` bila keduanya ada.
+## Highlight Update (7 April 2026)
+- Fitur pembagian kelompok kini mendukung banyak judul (kategori) dalam satu kelas.
+- Tampilan daftar kelompok dibuat seperti daftar event/infaq agar lebih mudah dibaca.
+- Siswa bisa melihat detail kelompok sesuai visibilitas (semua/kelompokku).
+- Sekretaris dapat mengubah nama kelompok dan menghapus judul/kelompok.
+- Form buat kelompok disederhanakan dan bisa diminimalkan.
+- Aksi edit/hapus memakai bottom sheet dari bawah.
+- Bagikan pembagian kelompok hanya via WhatsApp (kirim ke chat grup dinonaktifkan).
 
 ## Edisi Aplikasi
 Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
@@ -156,6 +150,10 @@ K. Pelanggaran
 - Terima catatan pelanggaran yang dibuat oleh pengelola.
 - Riwayat pelanggaran tampil di profil siswa.
 
+L. Kelompok Kelas
+- Lihat daftar kelompok sesuai visibilitas yang ditentukan sekretaris.
+- Buka detail untuk melihat anggota per kelompok.
+
 ### 2) Sekretaris (special role)
 Tujuan sekretaris adalah administrasi dan monitoring aktivitas kelas.
 
@@ -179,6 +177,12 @@ E. Chat
 - Koordinasi dengan anggota kelas dan pengelola.
 - Pengingat otomatis ke chat grup kelas saat masa penugasan (pengirim: Sekretaris {Kelas}).
 - Riwayat pembayaran tersedia di profil (lunas/belum dibayar).
+
+F. Kelompok Kelas
+- Buat judul kelompok, tentukan mapel, jumlah kelompok/anggota, dan masa berlaku.
+- Atur visibilitas (semua kelompok atau hanya kelompok masing-masing).
+- Ubah nama kelompok dan hapus judul/kelompok bila diperlukan.
+- Bagikan pembagian kelompok via WhatsApp.
 
 ### 3) Bendahara (special role)
 Tujuan bendahara adalah mengelola keuangan kelas.
