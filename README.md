@@ -10,18 +10,19 @@ Catatan penting:
 - `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
 
-## Status Rilis (7 April 2026)
-- `Main`: `versionName 1.1.19` (`versionCode 28`)
+## Status Rilis (8 April 2026)
+- `Main`: `versionName 1.1.20` (`versionCode 29`)
 - `Lite`: dihentikan per 4 April 2026. Gunakan `Main`.
 
-## Highlight Update (7 April 2026)
-- Fitur pembagian kelompok kini mendukung banyak judul (kategori) dalam satu kelas.
+## Highlight Update (8 April 2026)
+- Detail kelompok kini langsung tampil setelah simpan (tanpa perlu restart/clear app).
+- Bagikan pembagian kelompok hanya via WhatsApp (kirim ke chat grup dinonaktifkan).
+- Fitur pembagian kelompok mendukung banyak judul (kategori) dalam satu kelas.
 - Tampilan daftar kelompok dibuat seperti daftar event/infaq agar lebih mudah dibaca.
 - Siswa bisa melihat detail kelompok sesuai visibilitas (semua/kelompokku).
-- Sekretaris dapat mengubah nama kelompok dan menghapus judul/kelompok.
+- Hak akses diperketat: hanya sekretaris/anggota dapat ubah nama, hapus judul/kelompok hanya sekretaris.
 - Form buat kelompok disederhanakan dan bisa diminimalkan.
 - Aksi edit/hapus memakai bottom sheet dari bawah.
-- Bagikan pembagian kelompok hanya via WhatsApp (kirim ke chat grup dinonaktifkan).
 
 ## Edisi Aplikasi
 Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
