@@ -1,22 +1,26 @@
-# MySIFOR - Panduan Pengguna (Siswa, Sekretaris, Bendahara)
+# MySIFOR - Panduan Pengguna
 MySIFOR adalah aplikasi informasi Forum Kesiswaan TJKT berbasis Android.
 Panduan ini mencakup peran:
 - `Siswa`
 - `Sekretaris` (special role)
 - `Bendahara` (special role)
+- `Koordinator/Petugas Kelas` (special role `petugas`)
+- `Kebersihan Kelas` (special role `kebersihan`)
+- `Peserta Ekstra TJKT`
 
 Catatan penting:
 - Akun, hak akses, dan konfigurasi sistem dikelola oleh Pengelola MySIFOR.
-- `Sekretaris` dan `Bendahara` adalah special role yang dapat ditempelkan ke akun (contoh: akun siswa merangkap sekretaris/bendahara).
+- `Sekretaris`, `Bendahara`, `Koordinator/Petugas`, dan `Kebersihan` adalah special role yang dapat ditempelkan ke akun.
 - Jika data/akses tidak sesuai, laporkan ke Pengelola.
+- Jika butuh bantuan, request fitur, atau koreksi data, hubungi WA Admin: `+62 851-9607-5120`.
+- Pendaftaran ekstra TJKT akan dilakukan melalui platform pendaftaran yang disediakan.
 
-## Status Rilis (22 April 2026)
-- `Main`: `versionName 1.1.21` (`versionCode 30`)
+## Status Rilis (1 Juni 2026)
+- `Main`: `versionName 1.1.23` (`versionCode 32`)
 - `Lite`: dihentikan per 4 April 2026. Gunakan `Main`.
 
-## Highlight Update (22 April 2026)
-- Perbaikan perhitungan kas dashboard bendahara: sekarang menampilkan total keseluruhan (akumulasi), bukan hanya minggu terbaru.
-- Sinkronisasi total kas diperkuat agar tetap terbaca meskipun data lama tersimpan dengan format dokumen berbeda.
+## Highlight Update (1 Juni 2026)
+-
 
 ## Edisi Aplikasi
 Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
@@ -27,7 +31,9 @@ Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
 - `Event`: kegiatan kelas yang memiliki agenda dan kadang iuran.
 - `Kas` dan `Infaq`: pembayaran rutin kelas.
 - `Literasi`: laporan kegiatan membaca yang diinput siswa.
-- `Pelanggaran`: catatan pelanggaran siswa yang dicatat oleh pengelola.
+- `Pelanggaran`: catatan pelanggaran siswa yang dicatat oleh koordinator/petugas atau pengelola.
+- `Denda Kebersihan`: denda dari kebersihan/piket yang dikonfirmasi bendahara.
+- `Pendaftaran Ekstra TJKT`: pengajuan menjadi peserta ekstra TJKT melalui platform pendaftaran yang akan segera disediakan.
 
 ## Mulai Cepat
 1. Install APK resmi.
@@ -206,13 +212,79 @@ D. Event
 - Pantau target iuran dan realisasi.
 - Progress event menampilkan persentase target terkumpul.
 
-E. Laporan
+E. Denda Kebersihan
+- Lihat daftar denda kebersihan dari role kebersihan kelas.
+- Konfirmasi denda siswa agar statusnya berubah menjadi lunas/terbayar.
+- Hapus denda jika ada kesalahan entry atau koreksi data.
+- Setiap denda yang dikonfirmasi otomatis tercatat sebagai transaksi kas kategori `Denda Kebersihan`.
+- Status denda yang sudah dikonfirmasi tersinkron ke dashboard/profil siswa dan riwayat pembayaran.
+
+F. Laporan
 - Rekap kas dan infaq (model event).
 - Pantau ringkasan event untuk pelaporan ke kelas.
 
-F. Chat
+G. Chat
 - Koordinasi terkait pembayaran dan laporan.
 - Riwayat pembayaran tersedia di profil (lunas/belum dibayar).
+
+### 4) Koordinator / Petugas Kelas (special role)
+Tujuan koordinator adalah membantu pemantauan laporan kelas dan pencatatan pelanggaran sesuai kelasnya.
+
+A. Dashboard Koordinator
+- Akses cepat ke pencatatan pelanggaran.
+- Lihat laporan pelanggaran kelas.
+- Lihat laporan literasi kelas.
+
+B. Pencatatan Pelanggaran
+- Pilih siswa dari kelas yang sama.
+- Pilih kategori dan detail pelanggaran.
+- Data pelanggaran tersimpan untuk rekap pengelola.
+- Poin pelanggaran tetap dipakai untuk rekap internal, tetapi tidak ditampilkan sebagai tulisan poin di dashboard/profil siswa.
+
+C. Laporan
+- Laporan pelanggaran dan literasi dapat dipantau per kelas.
+- Data yang tampil mengikuti akses kelas koordinator.
+
+### 5) Kebersihan Kelas (special role)
+Tujuan kebersihan adalah mengelola checklist piket dan tindak lanjut kebersihan kelas.
+
+A. Dashboard Kebersihan
+- Checklist petugas piket kelas.
+- Atur hari libur piket bila diperlukan.
+- Kelola sanksi piket berulang atau denda kebersihan.
+
+B. Checklist dan Libur Piket
+- Tandai petugas piket yang sudah menjalankan tugas.
+- Simpan catatan checklist bila ada keterangan tambahan.
+- Liburkan piket untuk tanggal tertentu dengan alasan.
+
+C. Sanksi dan Denda
+- Buat sanksi piket berulang untuk siswa tertentu.
+- Buat denda kebersihan dengan nominal dan jatuh tempo.
+- Denda yang dibuat menunggu konfirmasi bendahara sebelum dianggap lunas.
+
+### 6) Peserta Ekstra TJKT
+Tujuan peserta ekstra TJKT adalah mengikuti aktivitas ekstra, membaca modul, mengerjakan tugas, dan absensi.
+
+A. Dashboard Peserta Ekstra
+- Scan QR absensi.
+- Buka daftar modul TJKT.
+- Buka daftar tugas TJKT.
+
+B. Modul dan Tugas
+- Baca modul dari link yang tersedia.
+- Lihat deadline tugas.
+- Tandai tugas sebagai selesai.
+
+C. Absensi
+- Scan QR saat sesi absensi dibuka.
+- Satu sesi hanya dapat dicatat sekali untuk setiap peserta.
+
+D. Pendaftaran Ekstra TJKT
+- Siswa yang ingin bergabung ekstra TJKT akan mendaftar melalui platform pendaftaran yang akan segera disediakan.
+- Data pendaftaran yang disiapkan: nama lengkap, kelas, NIS, email, dan nomor WA aktif.
+- Tunggu konfirmasi setelah pendaftaran sebelum akses peserta ekstra TJKT aktif di aplikasi.
+- Jika sudah dikonfirmasi tetapi menu belum muncul, login ulang atau hubungi WA Admin: `+62 851-9607-5120`.
 
 ## Notifikasi dan Pengingat
 - Notifikasi dan suara adzan hanya dijadwalkan untuk akun `Islam`.
@@ -272,6 +344,6 @@ Channel update:
 Jika ada masalah:
 1. Catat waktu kejadian dan fitur yang bermasalah.
 2. Sertakan screenshot.
-3. Kirim laporan ke Pengelola.
+3. Kirim laporan atau request ke WA Admin: `+62 851-9607-5120`.
 
 Laporan yang detail mempercepat proses perbaikan.
