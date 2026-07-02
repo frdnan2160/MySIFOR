@@ -15,12 +15,16 @@ Catatan penting:
 - Jika butuh bantuan, request fitur, atau koreksi data, hubungi WA Admin: `+62 851-9607-5120`.
 - Pendaftaran ekstra TJKT akan dilakukan melalui platform pendaftaran yang disediakan.
 
-## Status Rilis (1 Juni 2026)
-- `Main`: `versionName 1.1.23` (`versionCode 32`)
+## Status Rilis (2 Juli 2026)
+- `Main`: `versionName 1.1.24` (`versionCode 33`)
 - `Lite`: dihentikan per 4 April 2026. Gunakan `Main`.
 
-## Highlight Update (1 Juni 2026)
--
+## Highlight Update (2 Juli 2026)
+- APK release-ready diperbaiki agar tidak force close akibat error permission Firestore async.
+- Chat dan ringkasan siswa lebih stabil; warning sinkron chat permission noise tidak lagi mengganggu siswa.
+- Naik Kelas sekarang memigrasikan data keuangan bendahara ke kelas tujuan dan membersihkan data kelas XII yang lulus.
+- Jadwal pelajaran dan jadwal piket dihapus saat kelas naik agar bisa disusun ulang untuk tahun ajaran baru.
+- Dashboard siswa dibuat lebih ringkas dengan teks pendek dan kartu kosong otomatis disembunyikan.
 
 ## Edisi Aplikasi
 Saat ini hanya tersedia `Main`. Edisi `Lite` resmi dihentikan per 4 April 2026.
