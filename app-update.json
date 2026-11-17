@@ -9,7 +9,7 @@
     "forceUpdate":  true,
     "channels":  {
                      "main":  {
-                                  "enabled":  true,
+                                  "enabled":  false,
                                   "latestVersionCode":  33,
                                   "latestVersionName":  "1.1.24",
                                   "apkUrl":  "https://github.com/frdnan2160/MySIFOR/releases/download/Main/MySIFOR.apk",
